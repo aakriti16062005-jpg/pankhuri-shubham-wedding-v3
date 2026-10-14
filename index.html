@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  // Always restart the invitation from the beginning on refresh/reopen.
+  // Prevent mobile browsers from restoring the previous scroll position.
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.addEventListener('pageshow', function () {
+    window.scrollTo(0, 0);
+  });
+</script>
+<title>Pankhuri &amp; Shubham | Wedding Invitation</title>
+<meta name="description" content="You are warmly invited to celebrate the wedding festivities of Pankhuri and Shubham, November 24, 2026.">
+<link rel="canonical" href="https://pankhuri-shubham-wedding.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pankhuri &amp; Shubham">
+<meta property="og:title" content="Pankhuri &amp; Shubham | Wedding Invitation">
+<meta property="og:description" content="Join us for the wedding celebrations of Pankhuri and Shubham, November 24, 2026.">
+<meta property="og:url" content="https://pankhuri-shubham-wedding-only.vercel.app/">
+<meta property="og:image" content="https://pankhuri-shubham-wedding-only.vercel.app/og-preview-v3.jpg">
+<meta property="og:image:secure_url" content="https://pankhuri-shubham-wedding-only.vercel.app/og-preview-v3.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1056">
+<meta property="og:image:height" content="1431">
+<meta property="og:image:alt" content="Pankhuri and Shubham together, for their wedding invitation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pankhuri &amp; Shubham | Wedding Invitation">
+<meta name="twitter:description" content="Join us for the wedding celebrations of Pankhuri and Shubham, November 24, 2026.">
+<meta name="twitter:image" content="https://pankhuri-shubham-wedding-only.vercel.app/og-preview-v3.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Tenor+Sans&family=Italianno&family=Tangerine:wght@700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream: #fdfbf7;
+  --cream-2: #faf5f0;
+  --sage: #e2b4b1;
+  --sage-dark: #ba7a76;
+  --sage-deep: #8a4f4c;
+  --sage-light: #f7dcda;
+  --gold: #d4af37;
+  --gold-light: #e8ce73;
+  --text-dark: #2c2a29;
+  --text-mid: #5a5552;
+  --border: #f0e5db;
+  --white: #fff;
+  --shadow: 0 24px 64px -12px rgba(138,79,76,.12);
+  --shadow-sm: 0 8px 24px rgba(138,79,76,.06);
+  --font-display: "Italianno", cursive;
+  --font-body: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Tenor Sans", sans-serif;
+  --font-script: "Italianno", cursive;
+}
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html {
+  scroll-behavior: smooth;
+  /* Respect the visitor's browser/OS text-size accessibility preference. */
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  text-size-adjust: auto;
+}
+body { background: var(--cream); color: var(--text-dark); font-family: var(--font-body); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; text-rendering: optimizeLegibility; }
+body.no-scroll { overflow: hidden; height: 100vh; }
+img { max-width:100%; display:block; }
+button { cursor:pointer; background:none; border:none; font-family:inherit; }
+a { color:inherit; text-decoration:none; }
+
+.entry-gate { z-index:9999; cursor:pointer; justify-content:center; align-items:center; display:flex; position:fixed; inset:0; overflow:hidden; transition:opacity .6s, transform .6s; }
+.entry-gate.hidden { opacity:0; transform:scale(1.05); pointer-events:none; }
+.entry-gate__bg-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; }
+
+#main-content { visibility:hidden; opacity:0; transition: opacity .8s; }
+#main-content.visible { visibility:visible; opacity:1; }
+
+#hero { background: var(--cream-2); justify-content:center; align-items:center; min-height:100dvh; padding:3rem 1rem 6rem; display:flex; position:relative; overflow:hidden; }
+#hero::before { content:""; background: radial-gradient(ellipse 120% 80% at 50% 0%, rgba(226,180,177,.18) 0%, transparent 65%); position:absolute; inset:0; }
+.hero-corner { z-index:2; pointer-events:none; position:absolute; inset:1.25rem; }
+.hero-corner::before, .hero-corner::after, .hero-corner span::before, .hero-corner span::after { content:""; border-style:solid; border-color:var(--gold); opacity:.7; width:54px; height:54px; position:absolute; }
+.hero-corner::before { border-width:2px 0 0 2px; top:0; left:0; }
+.hero-corner::after { border-width:2px 2px 0 0; top:0; right:0; }
+.hero-corner span::before { border-width:0 0 2px 2px; bottom:0; left:0; }
+.hero-corner span::after { border-width:0 2px 2px 0; bottom:0; right:0; }
+.hero-card { z-index:3; backdrop-filter: blur(18px); border:1px solid rgba(212,175,55,.32); width:100%; max-width:620px; box-shadow: var(--shadow), 0 0 0 4px rgba(226,180,177,.15) inset; text-align:center; background: rgba(253,251,247,.93); border-radius:2.2rem; flex-direction:column; align-items:center; gap:1.25rem; padding: clamp(1.5rem,3vw,2rem) clamp(1.75rem,5vw,2.5rem); display:flex; position:relative; opacity:0; transform:translateY(30px); transition:opacity .8s ease, transform .8s ease; }
+.hero-card.visible { opacity:1; transform:translateY(0); }
+.hero-icon { width:70px; height:70px; filter: drop-shadow(0 6px 18px rgba(212,175,55,.4)); animation: float 4s ease-in-out infinite; }
+.god-quote { font-family: var(--font-body); color: var(--sage-deep); letter-spacing:.04em; text-align:center; max-width:90%; font-size:1.25rem; font-style:italic; line-height:1.6; }
+.intro-text { font-family: var(--font-body); color: var(--sage-dark); letter-spacing:.02em; text-align:center; max-width:95%; font-size:1.25rem; font-style:italic; line-height:1.7; }
+.couple-name { font-family: var(--font-display); text-align:center; letter-spacing:.02em; width:100%; font-size: 4.5rem; font-weight:400; line-height:1.35; display:block; }
+.amp-row { justify-content:center; align-items:center; gap:1rem; width:100%; display:flex; }
+.amp-line { background: var(--border); width:44px; height:1px; }
+.amp { color: var(--gold); font-family: Tangerine, cursive; font-size:2.6rem; font-weight:700; line-height:1; }
+.parent-sub { font-family: var(--font-body); color: var(--text-mid); text-align:center; width:100%; max-width:100%; padding-inline:.15rem; font-size:clamp(.82rem, 3.5vw, 1.15rem); font-style:italic; font-weight:500; line-height:1.65; white-space:normal; overflow-wrap:anywhere; text-wrap:balance; }
+
+.scroll-indicator { z-index:10; opacity:0; cursor:pointer; flex-direction:column; align-items:center; gap:6px; animation: fadeIn 1.5s 1.5s forwards; display:flex; position:absolute; bottom:2.5rem; left:50%; width:max-content; max-width:calc(100% - 2rem); text-align:center; transform: translateX(-50%); }
+.scroll-indicator span { font-family: var(--font-sans); letter-spacing:.25em; text-transform:uppercase; color: var(--sage-dark); font-size:.7rem; }
+.scroll-indicator svg { width:20px; height:20px; color:var(--sage-dark); animation: bounce 2s infinite; }
+@media (max-width: 380px) {
+  .parent-sub {
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1.55;
+    overflow-wrap: anywhere;
+  }
+  .scroll-indicator {
+    width: calc(100% - 2rem);
+  }
+  .scroll-indicator span {
+    letter-spacing: .12em;
+    font-size: .75rem;
+    line-height: 1.45;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}\n@keyframes bounce { 0%,20%,50%,80%,100%{transform:translateY(0)} 40%{transform:translateY(-8px)} 60%{transform:translateY(-4px)} }
+@keyframes fadeIn { to { opacity:1; } }
+
+.scratch-section { background: var(--cream); text-align:center; flex-direction:column; justify-content:center; align-items:center; min-height:88vh; padding:2rem 1rem; display:flex; }
+.scratch-title-sub { font-family: var(--font-sans); letter-spacing:.35em; color:var(--gold); text-transform:uppercase; margin-bottom:.5rem; font-size:.8rem; display:block; }
+.scratch-title { font-family: var(--font-display); color: var(--sage-deep); margin-bottom:1rem; font-size: 4.5rem; line-height:1.1; }
+.scratch-desc { font-family: var(--font-body); color: var(--text-mid); margin-bottom:3.5rem; font-size:1.1rem; font-style:italic; }
+.scratch-grid { flex-wrap:wrap; justify-content:center; gap:1.5rem; display:flex; }
+.scratch-item { flex-direction:column; align-items:center; gap:1rem; display:flex; }
+.scratch-label { font-family: var(--font-sans); letter-spacing:.3em; color:var(--sage-dark); text-transform:uppercase; font-size:.85rem; }
+.scratch-card-wrapper { border:1px solid var(--border); background:#fff; border-radius:16px; justify-content:center; align-items:center; width:140px; height:190px; animation: floatCard 4s ease-in-out infinite; display:flex; position:relative; overflow:hidden; box-shadow: 0 15px 35px rgba(138,79,76,.15); }
+.scratch-item:nth-child(1) .scratch-card-wrapper { animation-delay:0s; }
+.scratch-item:nth-child(2) .scratch-card-wrapper { animation-delay:.5s; }
+.scratch-item:nth-child(3) .scratch-card-wrapper { animation-delay:1s; }
+@keyframes floatCard { 0% { transform:translateY(0) rotate(0); box-shadow:0 15px 35px rgba(138,79,76,.15); } 50% { transform:translateY(-15px) rotate(2deg); box-shadow:0 25px 45px rgba(138,79,76,.25); } 100% { transform:translateY(0) rotate(0); box-shadow:0 15px 35px rgba(138,79,76,.15); } }
+.scratch-value { font-family: var(--font-body); color: var(--sage-deep); font-size:3rem; font-weight:500; }
+.scratch-canvas { touch-action:none; cursor:crosshair; width:100%; height:100%; position:absolute; inset:0; }
+.scratch-hint { font-family: var(--font-sans); letter-spacing:.2em; color:var(--sage-dark); font-size:.65rem; transition: opacity .5s; }
+.scratch-hint.hidden { opacity:0; }
+
+/* COUNTDOWN SECTION (revealed after scratching) */
+.countdown-section {
+  background: var(--cream);
+  display: flex; align-items: center; justify-content: center;
+  min-height: min(76vh, 680px);
+  padding: 2rem 1.25rem;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .9s ease, transform .9s ease;
+}
+.countdown-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.countdown-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 2.2rem;
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+  padding: 2.25rem 1.5rem;
+}
+.countdown-quote {
+  font-family: var(--font-body);
+  color: var(--text-mid);
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: .5rem;
+}
+.countdown-title {
+  font-family: "Italianno", cursive;
+  color: var(--sage-dark);
+  font-size: 4.5rem;
+  line-height: 1.15;
+  text-align: center;
+  margin: .25rem 0 .5rem;
+}
+.countdown-date {
+  font-family: var(--font-sans);
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Small scroll-down arrow after scratching is complete */
+.post-scratch-arrow {
+  display: none;
+  justify-content: center;
+  margin-top: 2.2rem;
+  color: var(--sage-dark);
+  opacity: 0;
+  animation: bounce 2s infinite;
+  cursor: pointer;
+}
+.post-scratch-arrow.show {
+  display: flex;
+  animation: fadeIn 1s forwards, bounce 2s 1s infinite;
+}
+.post-scratch-arrow svg {
+  width: 22px; height: 22px;
+}
+.countdown-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .6rem;
+}
+.countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .4rem;
+}
+.countdown-num {
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1;
+  position: relative;
+  padding-bottom: .3rem;
+}
+.countdown-num::after {
+  content: "";
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--sage-light), transparent);
+}
+.countdown-lbl {
+  font-family: var(--font-sans);
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  font-size: .9rem;
+}
+
+/* FOREVER US — OUR STORY SECTION */
+.story-section {
+  background: var(--cream);
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+.story-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 5;
+}
+.sec-label {
+  font-family: var(--font-sans);
+  letter-spacing: .25em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  font-size: .95rem;
+  display: block;
+}
+.sec-heading {
+  font-family: var(--font-display);
+  color: var(--sage-deep);
+  font-size: 4.5rem;
+  line-height: 1.1;
+}
+.story-stack-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  height: calc(var(--real-vh, 1vh) * 100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.story-stack-container .story-header {
+  flex-shrink: 0;
+  padding: 1.25rem 1rem .5rem;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+.story-stack-area {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile story layout: keep the heading near the top and center the photo
+   stack against the full viewport, rather than centering it only in the
+   leftover space beneath the heading. */
+@media (max-width: 600px) {
+  .story-stack-container:not(.released) {
+    position: relative;
+    height: calc(var(--real-vh, 1vh) * 100);
+    min-height: 0;
+    overflow: hidden;
+  }
+  .story-stack-container:not(.released) .story-header {
+    position: absolute;
+    top: clamp(1.25rem, 4vh, 2.5rem);
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+  }
+  .story-stack-container:not(.released) .story-stack-area {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    flex: none;
+  }
+  .story-stack-container:not(.released) .story-polaroid {
+    height: calc(var(--real-vh, 1vh) * 46);
+    max-height: 420px;
+    width: min(88vw, 360px);
+    padding: 8px 8px 42px;
+  }
+  .story-stack-container:not(.released) .story-polaroid-caption {
+    bottom: 12px;
+    font-size: 1.2rem;
+  }
+  .story-stack-container:not(.released) .story-polaroid-caption--final {
+    font-size: 1.7rem;
+  }
+  .story-stack-container:not(.released) .story-scroll-hint {
+    bottom: 18px;
+  }
+}
+.story-stack-container.released {
+  height: auto !important;
+  overflow: visible !important;
+  flex-direction: column;
+}
+.story-stack-container.released .story-stack-area {
+  height: 560px;
+  flex: none;
+}
+@media (max-width: 600px) {
+  .story-stack-container.released .story-stack-area { height: 500px; }
+}
+/* All 4 cards sit centered, fixed in place within the locked viewport.
+   Each starts off-screen below except the first; JS advances them
+   one at a time, each landing with a slight offset so earlier ones
+   peek out from underneath, like a real stack of photos. */
+.story-card-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, 200vh);
+  transition: transform 0.35s cubic-bezier(.25,.8,.3,1);
+  will-change: transform;
+}
+.story-card-wrapper.landed {
+  /* exact resting transform is set inline per-card via JS for the peek-out offset */
+}
+.story-polaroid {
+  background: #fff;
+  border-radius: 4px;
+  width: 90vw;
+  max-width: 420px;
+  height: calc(var(--real-vh, 1vh) * 60);
+  max-height: 540px;
+  padding: 10px 10px 48px;
+  position: relative;
+  box-shadow: 0 15px 35px rgba(0,0,0,.18), 0 5px 15px rgba(0,0,0,.1);
+}
+.story-polaroid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+}
+/* Keep the full top of the groom's head visible in the second and third story photos. */
+.story-polaroid[data-index="1"] img {
+  object-position: center top;
+}
+.story-polaroid[data-index="2"] img {
+  object-position: center top;
+}
+.story-polaroid-caption {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "DM Serif Display", "Distrela", serif;
+  color: var(--sage-deep);
+  font-size: 1.35rem;
+}
+.story-polaroid-caption--final {
+  font-size: 2rem;
+  color: var(--sage-deep);
+  font-weight: 400;
+}
+/* Small hint shown while this section is scroll-locked, telling the user to keep scrolling */
+.story-scroll-hint {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  font-family: var(--font-sans);
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: var(--sage-dark);
+  font-size: .7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  opacity: .85;
+  animation: bounce 2s infinite;
+  pointer-events: none;
+}
+.story-scroll-hint svg { width: 18px; height: 18px; }
+.story-scroll-hint.hidden { display: none; }
+
+/* THE VENUE — keep it visually connected to the final wedding card */
+.venue-section {
+  background: var(--cream);
+  padding: 1.25rem 1.25rem 2.5rem;
+  text-align: center;
+}
+.venue-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 2rem;
+  max-width: 460px;
+  margin: 1.5rem auto 0;
+  padding: 1.5rem 1.5rem 2rem;
+  position: relative;
+}
+.venue-photo {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.venue-sparkle {
+  display: block;
+  color: var(--gold);
+  font-size: 1.3rem;
+  margin-bottom: .75rem;
+}
+.venue-name {
+  font-family: var(--font-body);
+  color: var(--sage-deep);
+  font-size: 1.85rem;
+  font-weight: 600;
+  margin-bottom: .75rem;
+  line-height: 1.3;
+}
+.venue-addr {
+  font-family: var(--font-body);
+  color: var(--sage-dark);
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+.venue-label {
+  display: block;
+  font-family: var(--font-sans);
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-size: .75rem;
+  margin-bottom: 1.5rem;
+}
+.venue-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  background: var(--sage-deep);
+  color: #fff;
+  font-family: var(--font-sans);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  padding: .9rem 2rem;
+  text-decoration: none;
+  transition: background .2s, transform .2s;
+}
+.venue-btn:hover {
+  background: var(--sage-dark);
+  transform: translateY(-2px);
+}
+.venue-btn svg { width: 18px; height: 18px; }
+
+/* FESTIVITIES SECTION */
+.festivities-section {
+  background: var(--cream);
+  padding: 2rem 1.25rem .5rem;
+  text-align: center;
+}
+.festivities-heading {
+  font-size: 4.5rem;
+}
+.festivities-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 2rem;
+  max-width: 460px;
+  margin: 1.5rem auto 0;
+  padding: 1.5rem 1.5rem 2.5rem;
+  position: relative;
+}
+.festivities-photo {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 1.25rem;
+  display: block;
+  margin-bottom: 1.25rem;
+}
+/* Larger, balanced type throughout all three festivities cards */
+.festivities-caption {
+  font-family: var(--font-body);
+  color: var(--sage-dark);
+  font-style: italic;
+  font-size: clamp(1.2rem, 4.4vw, 1.45rem);
+  line-height: 1.65;
+  margin-bottom: 1.75rem;
+}
+.festivities-event-name {
+  font-family: var(--font-body);
+  color: var(--sage-deep);
+  font-size: clamp(1.9rem, 6vw, 2.25rem);
+  line-height: 1.25;
+  font-weight: 600;
+  margin-bottom: .55rem;
+}
+.festivities-event-time {
+  font-family: var(--font-sans);
+  letter-spacing: .08em;
+  color: var(--sage-deep);
+  font-size: clamp(1.05rem, 3.8vw, 1.2rem);
+  line-height: 1.45;
+  margin-bottom: 1.5rem;
+}
+.festivities-event-date {
+  font-family: var(--font-sans);
+  letter-spacing: .08em;
+  color: var(--sage-dark);
+  font-size: clamp(1.1rem, 3.8vw, 1.25rem);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.festivities-dresscode {
+  border-top: 1px dashed var(--border);
+  border-bottom: 1px dashed var(--border);
+  padding: 1.1rem 0;
+  margin-bottom: 1.5rem;
+}
+.festivities-dresscode-label {
+  display: block;
+  font-family: var(--font-sans);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-size: clamp(.9rem, 3.2vw, 1rem);
+  margin-bottom: .7rem;
+}
+.festivities-dresscode-dots {
+  display: flex;
+  justify-content: center;
+  gap: .65rem;
+  margin-bottom: .65rem;
+}
+.festivities-dresscode-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+.festivities-dresscode-text {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--sage-deep);
+  font-size: clamp(1.05rem, 3.7vw, 1.2rem);
+  line-height: 1.5;
+}
+.festivities-card .venue-label {
+  font-size: clamp(.95rem, 3.4vw, 1.05rem);
+}
+.festivities-card .venue-addr {
+  font-size: clamp(1.05rem, 3.7vw, 1.2rem);
+  line-height: 1.65;
+}
+.festivities-card .venue-btn {
+  font-size: clamp(.95rem, 3.5vw, 1.05rem);
+}
+@media (max-width: 420px) {
+  .festivities-card { padding: 1.1rem 1rem 2rem; }
+  .festivities-caption { font-size: 1.15rem; }
+  .festivities-event-name { font-size: 1.8rem; }
+  .festivities-event-date { letter-spacing: .045em; font-size: 1.02rem; }
+  .festivities-event-time { letter-spacing: .045em; font-size: 1rem; }
+  .festivities-card .venue-addr { font-size: 1.02rem; }
+}
+
+/* CLOSING SECTION */
+.closing-section {
+  background: var(--sage-deep);
+  padding: 3.5rem 1.5rem 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.closing-quote {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: rgba(253,251,247,0.88);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+}
+.closing-regards-label {
+  font-family: var(--font-sans);
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-size: .85rem;
+  margin-bottom: 1rem;
+}
+.closing-regards-name {
+  display: block;
+  max-width: 100%;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-weight: 700;
+  color: #f4d7c9;
+  font-size: clamp(1rem, 4.1vw, 1.45rem);
+  line-height: 1.35;
+  letter-spacing: 0;
+  text-shadow: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0 auto 3.5rem;
+}
+.closing-host-main {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  /* Responsive: nearly 10px below the couple-name scale on large screens,
+     while shrinking just enough to keep the full host name on one line on phones. */
+  font-size: clamp(1.25rem, 7vw, 3.875rem);
+  line-height: 1.12;
+  font-weight: 700;
+  color: #f4d7c9;
+  letter-spacing: -.025em;
+}
+.closing-host-family {
+  display: block;
+  margin-top: .15rem;
+  /* Keep the family line about 6px smaller than the responsive host name. */
+  font-size: clamp(calc(1.25rem - 6px), calc(7vw - 6px), calc(3.875rem - 6px));
+  line-height: 1.2;
+  font-weight: 400;
+  color: rgba(253,251,247,.88);
+}
+.closing-couple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .2rem;
+}
+.closing-bride,
+.closing-groom {
+  font-family: var(--font-display);
+  color: var(--gold);
+  font-size: 4.5rem;
+  line-height: 1.1;
+}
+.closing-amp {
+  font-family: var(--font-sans);
+  color: rgba(253,251,247,0.7);
+  font-size: 1.5rem;
+  margin: .3rem 0;
+}
+
+#confetti-canvas { position:fixed; inset:0; pointer-events:none; z-index:9999; }
+#petal-canvas { position:fixed; inset:0; pointer-events:none; z-index:40; opacity:0; transition:opacity 1.5s; }
+#petal-canvas.active { opacity:1; }
+
+/* SCROLL HINT TOAST */
+#scroll-toast {
+  position: fixed;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: rgba(44, 36, 25, 0.88);
+  color: #fdfbf7;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .7rem 1.4rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9800;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  white-space: nowrap;
+  box-shadow: 0 4px 20px rgba(0,0,0,.2);
+}
+#scroll-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+#scroll-toast svg {
+  width: 14px;
+  height: 14px;
+  animation: bounce 1.5s infinite;
+}
+
+#intro-video-wrap {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+}
+#intro-video-wrap.show { opacity: 1; pointer-events: all; }
+#introVideo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#video-fade-overlay {
+  position: absolute;
+  inset: 0;
+  background: #fdfbf7;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1.2s ease;
+}
+#video-fade-overlay.fade-in { opacity: 1; }
+
+#audio-btn { z-index:9500; background:var(--white); border:1px solid var(--border); width:52px; height:52px; box-shadow:var(--shadow-sm); cursor:pointer; border-radius:50%; justify-content:center; align-items:center; transition: transform .4s cubic-bezier(.175,.885,.32,1.275); display:flex; position:fixed; bottom:28px; right:28px; }
+#audio-btn:hover { transform: scale(1.14); }
+#audio-btn svg { width:20px; height:20px; color: var(--sage-dark); }
+
+
+
+/* Accessibility: allow enlarged system text to reflow instead of clipping. */
+@media (max-width: 600px) {
+  .hero-card {
+    min-width: 0;
+    gap: clamp(.75rem, 2.5vh, 1.25rem);
+    padding: clamp(1rem, 4vw, 1.75rem) clamp(.9rem, 4vw, 1.5rem);
+  }
+  .couple-name {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    font-size: clamp(3.2rem, 17vw, 4.5rem);
+    line-height: 1.15;
+  }
+  .parent-sub {
+    max-width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    overflow-wrap: anywhere;
+    font-size: clamp(1rem, 4.3vw, 1.2rem);
+    line-height: 1.6;
+  }
+  .scroll-indicator {
+    max-width: calc(100% - 2rem);
+    width: max-content;
+  }
+  .scroll-indicator span {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.45;
+  }
+  .scratch-section,
+  .countdown-section {
+    min-width: 0;
+  }
+  .scratch-desc,
+  .countdown-quote,
+  .intro-text,
+  .god-quote {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<audio id="bg-audio" loop preload="auto"></audio>
+<canvas id="confetti-canvas"></canvas>
+<canvas id="petal-canvas"></canvas>
+
+<div id="scroll-toast">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+  👇 Scroll Down to See More
+</div>
+
+<div class="entry-gate" id="entryGate">
+  <img class="entry-gate__bg-img" src="assets/inline-01.jpg" alt="Tap to reveal">
+</div>
+
+<div id="intro-video-wrap">
+  <video id="introVideo" playsinline muted preload="auto">
+    <source src="assets/inline-02.mp4" type="video/mp4">
+  </video>
+  <div id="video-fade-overlay"></div>
+</div>
+
+<div id="main-content">
+  <section id="hero">
+    <div class="hero-corner"><span></span></div>
+    <div class="hero-card" id="heroCard">
+      <img src="assets/inline-03.png" alt="Ganesh ji" style="width:140px; height:auto; margin:0 auto; mix-blend-mode:multiply;" />
+      <p class="god-quote">॥ श्री गणेशाय नमः ॥<br>वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥</p>
+      <p class="intro-text">With the blessings of Shri Ganesh and our<br>beloved families, we joyfully invite you to<br>celebrate the union of</p>
+      <span class="couple-name">Pankhuri</span>
+      <div class="amp-row"><span class="amp-line"></span><span class="amp">&amp;</span><span class="amp-line"></span></div>
+      <span class="couple-name">Shubham</span>
+      <p class="parent-sub">Daughter of Mrs. Poonam &amp; Mr. Pawan Kaushal<br>Son of Mrs. Dimple &amp; Mr. Vikas Gupta</p>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to see magic</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+    </div>
+  </section>
+
+  <section class="scratch-section" id="scratchSection">
+    <span class="scratch-title-sub">The Date</span>
+    <h2 class="scratch-title">Save the Date</h2>
+    <p class="scratch-desc">Scratch below to reveal the wedding date</p>
+    <div class="scratch-grid">
+      <div class="scratch-item">
+        <span class="scratch-label">Month</span>
+        <div class="scratch-card-wrapper wiggling" id="wrap-month">
+          <span class="scratch-value">NOV</span>
+          <canvas class="scratch-canvas" id="scratch-month"></canvas>
+        </div>
+        <span class="scratch-hint" id="hint-month">↑ Scratch</span>
+      </div>
+      <div class="scratch-item">
+        <span class="scratch-label">Day</span>
+        <div class="scratch-card-wrapper wiggling" id="wrap-day">
+          <span class="scratch-value">24</span>
+          <canvas class="scratch-canvas" id="scratch-day"></canvas>
+        </div>
+        <span class="scratch-hint" id="hint-day">↑ Scratch</span>
+      </div>
+      <div class="scratch-item">
+        <span class="scratch-label">Year</span>
+        <div class="scratch-card-wrapper wiggling" id="wrap-year">
+          <span class="scratch-value">2026</span>
+          <canvas class="scratch-canvas" id="scratch-year"></canvas>
+        </div>
+        <span class="scratch-hint" id="hint-year">↑ Scratch</span>
+      </div>
+    </div>
+    <div class="post-scratch-arrow" id="postScratchArrow">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+    </div>
+  </section>
+
+  <section class="countdown-section" id="countdownSection" style="display:none;">
+    <div class="countdown-card">
+      <p class="countdown-quote">A lifetime of togetherness begins with one sacred step</p>
+      <h2 class="countdown-title">The Wedding</h2>
+      <p class="countdown-date">24.11.2026</p>
+      <div class="countdown-grid">
+        <div class="countdown-unit">
+          <span class="countdown-num" id="cd-days">00</span>
+          <span class="countdown-lbl">Days</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-num" id="cd-hours">00</span>
+          <span class="countdown-lbl">Hours</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-num" id="cd-mins">00</span>
+          <span class="countdown-lbl">Mins</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-num" id="cd-secs">00</span>
+          <span class="countdown-lbl">Secs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story-section" id="storySection" style="display:none;">
+    <div class="story-stack-container" id="storyStackContainer">
+      <div class="story-header" id="storyHeader">
+        <span class="sec-label">Our Story</span>
+        <h2 class="sec-heading">Forever Us</h2>
+      </div>
+      <div class="story-stack-area" id="storyStackArea">
+      <div class="story-scroll-hint" id="storyScrollHint">
+        <span>Scroll</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </div>
+      <div class="story-card-wrapper" data-card="0" style="z-index:1;">
+        <div class="story-polaroid" data-index="0">
+          <img src="assets/inline-04.jpg" alt="Pankhuri and Shubham">
+          <p class="story-polaroid-caption">Memories Together</p>
+        </div>
+      </div>
+      <div class="story-card-wrapper" data-card="1" style="z-index:2;">
+        <div class="story-polaroid" data-index="1">
+          <img src="assets/inline-05.jpg" alt="Pankhuri and Shubham">
+          <p class="story-polaroid-caption">Written in the Stars</p>
+        </div>
+      </div>
+      <div class="story-card-wrapper" data-card="2" style="z-index:3;">
+        <div class="story-polaroid" data-index="2">
+          <img src="assets/inline-06.jpg" alt="Pankhuri and Shubham">
+          <p class="story-polaroid-caption">Joy and Laughter</p>
+        </div>
+      </div>
+      <div class="story-card-wrapper" data-card="3" style="z-index:4;">
+        <div class="story-polaroid" data-index="3">
+          <img src="assets/inline-07.jpg" alt="Pankhuri and Shubham">
+          <p class="story-polaroid-caption story-polaroid-caption--final">Forever Us</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="festivities-section" id="festivitiesSection" style="display:none;">
+    <span class="sec-label">The Celebrations Unfold</span>
+    <h2 class="sec-heading festivities-heading">Festivities</h2>
+
+
+
+    <div class="festivities-card">
+      <img class="festivities-photo" src="images/wedding.png" alt="Wedding">
+      <p class="festivities-caption">The most awaited moment — witness the union of two souls in love.</p>
+      <p class="festivities-event-name">Wedding</p>
+      <p class="festivities-event-date">Wednesday &nbsp;·&nbsp; 24 Nov 2026</p>
+      <p class="festivities-event-time">Reception of Baarat: 07:00 PM</p><span class="venue-label">At</span>
+      <p class="venue-addr">Mandakini Farms,<br>G.T. Road, Paragpur,<br>Jalandhar, Punjab - 144005</p>
+      <a class="venue-btn" href="https://www.google.com/maps/place/Mandakini+Farms,+G.T.+Road,+Paragpur,+Jalandhar,+Punjab+144005/data=!4m2!3m1!1s0x391a58d71f9bc85d:0xb3036cd82397b34d!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCDI2LjI0LjEwGAAg14IDKp8BLDk0MjY3NzI3LDk0MjkyMTk1LDk0Mjk5NTMyLDEwMDc5NjQ5OCwxMDA3OTc3NjEsMTAwNzk2NTM1LDk0MjgwNTc2LDEwMDgxMTk1OSw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA4MTU2NDAsMTAwODEyOTk0QgJJTg%3D%3D&skid=bc6d00c3-2b0a-4743-bdf3-f4f332dcaf2c&g_st=aw" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Get Directions
+      </a>
+    </div>
+  </section>
+
+  <section class="venue-section" id="venueSection" style="display:none;">
+    <span class="sec-label">Where</span>
+    <h2 class="sec-heading">The Venue</h2>
+
+    <div class="venue-card">
+      <img class="venue-photo" src="assets/inline-08.jpg" alt="Mandakini Farms decor">
+
+      <span class="venue-sparkle">&#10022;</span>
+
+      <p class="venue-name">Mandakini Farms</p>
+      <p class="venue-addr">G.T. Road, Paragpur,<br>Jalandhar, Punjab - 144005</p>
+
+      <span class="venue-label">Where</span>
+
+      <a class="venue-btn" href="https://maps.app.goo.gl/y6rQqoh7JxX3iPAX7?g_st=aw" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        View on Maps
+      </a>
+    </div>
+  </section>
+
+  <section class="closing-section" id="closingSection" style="display:none;">
+    <p class="closing-quote">Your presence will turn this real-life romance into a blockbuster we'll never forget.</p>
+        <p class="closing-regards-label">Warm Regards,</p>
+    <p class="closing-regards-name"><span class="closing-host-main">Poonam &amp; Pawan Kaushal</span><span class="closing-host-family">and Kaushal family</span></p>
+
+  </section>
+</div>
+
+<button id="audio-btn" onclick="toggleSound()">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+    <path d="M19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.07"/>
+  </svg>
+</button>
+
+
+<script>
+const audio = document.getElementById('bg-audio');
+audio.src = "assets/inline-09.mp3";
+audio.loop = true;
+let soundOn = true;
+
+function setSoundButtonMuted(){
+  document.getElementById('audio-btn').innerHTML = `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+      <line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>
+    </svg>`;
+}
+
+function stopBackgroundAudio(){
+  soundOn = false;
+  audio.pause();
+  setSoundButtonMuted();
+}
+
+// Stop music when the page is hidden, the tab is backgrounded, or the page closes.
+// It will not restart automatically when the visitor returns; they can tap sound to resume.
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') stopBackgroundAudio();
+});
+window.addEventListener('pagehide', stopBackgroundAudio);
+window.addEventListener('beforeunload', stopBackgroundAudio);
+// Some mobile browsers do not reliably fire visibilitychange when the user
+// switches apps or moves to another browser window, so also stop on blur.
+window.addEventListener('blur', stopBackgroundAudio);
+document.addEventListener('freeze', stopBackgroundAudio);
+
+function toggleSound(){
+  soundOn = !soundOn;
+  if(soundOn){
+    audio.play().catch(()=>{});
+    document.getElementById('audio-btn').innerHTML = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+        <path d="M19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.07"/>
+      </svg>`;
+  } else {
+    audio.pause();
+    document.getElementById('audio-btn').innerHTML = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+        <line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>
+      </svg>`;
+  }
+}
+
+// Ensure looped playback always restarts from 0.05s, not 0.00s
+audio.addEventListener('ended', () => {
+  // (loop=true normally handles this natively, but some browsers need a manual nudge)
+  audio.currentTime = 0.05;
+  if(soundOn) audio.play().catch(()=>{});
+});
+
+// Try to start playback the instant the page loads.
+// Most browsers block this until a user gesture happens (the envelope tap
+// guarantees it below), but we attempt it early in case the browser allows it.
+window.addEventListener('DOMContentLoaded', () => {
+  window.scrollTo(0, 0);
+  audio.currentTime = 0.05;
+  audio.play().catch(() => {
+    // Expected to fail before user interaction in most browsers — that's fine,
+    // the envelope tap below will start it instead.
+  });
+});
+
+document.getElementById('entryGate').addEventListener('click', function(){
+  const gate = this;
+  const videoWrap = document.getElementById('intro-video-wrap');
+  const video = document.getElementById('introVideo');
+  const fadeOverlay = document.getElementById('video-fade-overlay');
+
+  audio.volume = 0.45;
+  audio.currentTime = 0;
+  audio.play().catch(()=>{});
+
+  gate.classList.add('hidden');
+
+  setTimeout(()=>{
+    gate.style.display = 'none';
+    videoWrap.classList.add('show');
+    video.currentTime = 0;
+
+    let revealed = false;
+    function revealInvite(){
+      if(revealed) return;
+      revealed = true;
+      // Fade the video wrap out, reveal invite underneath simultaneously
+      videoWrap.style.transition = 'opacity 0.8s ease';
+      videoWrap.style.opacity = '0';
+      document.getElementById('main-content').classList.add('visible');
+      document.getElementById('petal-canvas').classList.add('active');
+      startPetals();
+      setTimeout(()=> document.getElementById('heroCard').classList.add('visible'), 400);
+      setTimeout(()=>{ videoWrap.style.display = 'none'; }, 900);
+    }
+
+    function tryPlay(){
+      video.play().catch(()=>{
+        video.muted = true;
+        video.play().catch(()=>{ revealInvite(); });
+      });
+    }
+    if(video.readyState >= 1) tryPlay();
+    else video.addEventListener('loadedmetadata', tryPlay, { once: true });
+
+    // Safety net: if video doesn't start in 3s, skip straight to invite
+    let videoStarted = false;
+    video.addEventListener('playing', ()=>{ videoStarted = true; }, { once: true });
+    setTimeout(()=>{ if(!videoStarted) revealInvite(); }, 3000);
+
+    // Reveal invite when video ends
+    video.addEventListener('ended', revealInvite, { once: true });
+  }, 600);
+});
+
+// ── GENTLE FALLING PETALS ──
+function startPetals(){
+  const canvas = document.getElementById('petal-canvas');
+  const ctx = canvas.getContext('2d');
+  let petals = [];
+
+  function resize(){ canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+  resize();
+  window.addEventListener('resize', resize);
+
+  const colors = ['#f3c9d3','#ead0c8','#f0dccb','#e8c3c0','#f5dde0','#dcc0a8'];
+
+  function makePetal(){
+    return {
+      x: Math.random()*canvas.width,
+      y: -20,
+      size: 7 + Math.random()*9,
+      speedY: 0.4 + Math.random()*0.7,
+      sway: Math.random()*Math.PI*2,
+      swayAmt: 0.5 + Math.random()*0.9,
+      swaySpeed: 0.006 + Math.random()*0.01,
+      rot: Math.random()*Math.PI*2,
+      rotSpeed: (Math.random()-0.5)*0.015,
+      color: colors[Math.floor(Math.random()*colors.length)],
+      alpha: 0.45 + Math.random()*0.35,
+      wide: 0.45 + Math.random()*0.3
+    };
+  }
+  for(let i=0;i<22;i++){
+    const p = makePetal();
+    p.y = Math.random()*canvas.height;
+    petals.push(p);
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    petals.forEach(p=>{
+      p.sway += p.swaySpeed;
+      p.x += Math.sin(p.sway)*p.swayAmt;
+      p.y += p.speedY;
+      p.rot += p.rotSpeed;
+      if(p.y > canvas.height + 20){ Object.assign(p, makePetal()); p.y = -20; }
+      ctx.save();
+      ctx.globalAlpha = p.alpha;
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.rot);
+      ctx.beginPath();
+      ctx.ellipse(0,0, p.size*p.wide, p.size, 0, 0, Math.PI*2);
+      ctx.fillStyle = p.color;
+      ctx.fill();
+      ctx.restore();
+    });
+    requestAnimationFrame(draw);
+  }
+  draw();
+}
+
+const scratchIds = ['scratch-month','scratch-day','scratch-year'];
+const wrapIds = ['wrap-month','wrap-day','wrap-year'];
+const hintIds = ['hint-month','hint-day','hint-year'];
+let scratchDone = [false,false,false];
+
+function initScratch(canvasId, wrapId, hintId, index){
+  const canvas = document.getElementById(canvasId);
+  const wrap = document.getElementById(wrapId);
+  const hint = document.getElementById(hintId);
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+
+  function resize(){
+    const w = wrap.offsetWidth, h = wrap.offsetHeight;
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    canvas.style.width = w + 'px';
+    canvas.style.height = h + 'px';
+    ctx.scale(dpr, dpr);
+
+    const grad = ctx.createLinearGradient(0,0,w,h);
+    grad.addColorStop(0, '#ba7a76');
+    grad.addColorStop(1, '#8a4f4c');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0,0,w,h);
+    for(let i=0;i<300;i++){
+      ctx.fillStyle = `rgba(255,255,255,${0.03+Math.random()*0.05})`;
+      ctx.fillRect(Math.random()*w, Math.random()*h, 1.5, 1.5);
+    }
+    ctx.fillStyle='rgba(255,255,255,0.85)';
+    ctx.font = `600 ${w*0.11}px "Tenor Sans", sans-serif`;
+    ctx.textAlign='center';
+    ctx.textBaseline='middle';
+    ctx.fillText('SCRATCH', w/2, h/2);
+  }
+  resize();
+
+  let scratching=false, revealed=false, lastPos=null;
+  const w = wrap.offsetWidth, h = wrap.offsetHeight;
+
+  function getPos(e){
+    const rect = canvas.getBoundingClientRect();
+    const cx = e.touches ? e.touches[0].clientX : e.clientX;
+    const cy = e.touches ? e.touches[0].clientY : e.clientY;
+    return { x: cx-rect.left, y: cy-rect.top };
+  }
+
+  function scratchTo(pos){
+    ctx.globalCompositeOperation='destination-out';
+    ctx.lineCap='round';
+    ctx.lineJoin='round';
+    ctx.lineWidth = 60;
+    ctx.beginPath();
+    if(lastPos){
+      ctx.moveTo(lastPos.x, lastPos.y);
+      ctx.lineTo(pos.x, pos.y);
+      ctx.stroke();
+    } else {
+      ctx.arc(pos.x, pos.y, 30, 0, Math.PI*2);
+      ctx.fill();
+    }
+    ctx.globalCompositeOperation='source-over';
+    lastPos = pos;
+    checkReveal();
+  }
+
+  let checkCounter = 0;
+  function checkReveal(){
+    if(revealed) return;
+    checkCounter++;
+    if(checkCounter % 6 !== 0) return; // throttle expensive pixel read
+    const data = ctx.getImageData(0,0,canvas.width,canvas.height).data;
+    let clear=0;
+    const total = canvas.width*canvas.height;
+    const step = 16; // sample every 4th pixel for speed
+    let sampled=0;
+    for(let i=3;i<data.length;i+=4*step){ if(data[i]<128) clear++; sampled++; }
+    if(clear/sampled > 0.4){
+      revealed=true;
+      scratchDone[index]=true;
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      canvas.style.display='none';
+      hint.classList.add('hidden');
+      wrap.classList.remove('wiggling');
+      checkAllDone();
+    }
+  }
+
+  function start(e){ scratching=true; lastPos=null; scratchTo(getPos(e)); }
+  function move(e){ if(scratching) scratchTo(getPos(e)); }
+  function end(){ scratching=false; lastPos=null; }
+
+  canvas.addEventListener('mousedown', start);
+  canvas.addEventListener('mousemove', move);
+  window.addEventListener('mouseup', end);
+  canvas.addEventListener('touchstart', e=>{ e.preventDefault(); start(e); }, {passive:false});
+  canvas.addEventListener('touchmove', e=>{ e.preventDefault(); move(e); }, {passive:false});
+  canvas.addEventListener('touchend', end);
+}
+
+function checkAllDone(){
+  if(scratchDone.every(Boolean)){
+    setTimeout(fireConfetti, 250);
+    setTimeout(()=>{
+      const arrow = document.getElementById('postScratchArrow');
+      arrow.classList.add('show');
+      // Make the countdown section visible in layout (still opacity:0) so scrolling can reach it & trigger reveal
+      const section = document.getElementById('countdownSection');
+      section.style.display = 'flex';
+      // Also make the story section reachable in layout now (images themselves stay hidden
+      // until the user actually scrolls into that section — handled separately below)
+      const story = document.getElementById('storySection');
+      story.style.display = 'block';
+
+      // Arrow hint already shows — no auto-scroll needed.
+    }, 900);
+  }
+}
+
+// Custom smooth scroll with a controllable, deliberate duration (in ms),
+// easing gently rather than snapping instantly to the target.
+// ── SCROLL HINT TOAST: universal idle detector ──
+let toastTimer = null;
+let toastVisible = false;
+let toastShownAt = 0;
+let idleTimer = null;
+let scrollEndTimer = null;
+
+function showScrollHint(){
+  const toast = document.getElementById('scroll-toast');
+  if(!toast || toastVisible || shouldSuppressScrollToast()) return;
+  toast.classList.add('show');
+  toastVisible = true;
+  toastShownAt = Date.now();
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{
+    toast.classList.remove('show');
+    toastVisible = false;
+  }, 7000);
+}
+
+function shouldSuppressScrollToast(){
+  // Keep the floating reminder away from the venue and closing content,
+  // where it can cover details or interfere with taking screenshots.
+  const lateSections = ['venueSection', 'festivitiesSection', 'closingSection'];
+  return lateSections.some(id => {
+    const el = document.getElementById(id);
+    if(!el || el.style.display === 'none') return false;
+    const r = el.getBoundingClientRect();
+    return r.bottom > 0 && r.top < window.innerHeight;
+  });
+}
+
+function hideToast(force = false){
+  if(force || (toastVisible && Date.now() - toastShownAt > 800)){
+    const toast = document.getElementById('scroll-toast');
+    if(toast) toast.classList.remove('show');
+    toastVisible = false;
+    clearTimeout(toastTimer);
+  }
+}
+
+function onUserActivity(){
+  hideToast();
+  // Restart the idle countdown every time user interacts
+  clearTimeout(idleTimer);
+  idleTimer = setTimeout(showScrollHint, 3000);
+}
+
+// Detect scroll end separately — show toast 3s after scrolling stops
+window.addEventListener('scroll', ()=>{
+  hideToast();
+  clearTimeout(idleTimer);
+  clearTimeout(scrollEndTimer);
+  // Wait for scroll to fully stop before starting the 3s countdown
+  scrollEndTimer = setTimeout(()=>{
+    idleTimer = setTimeout(showScrollHint, 3000);
+  }, 400);
+}, { passive: true });
+
+window.addEventListener('touchstart', onUserActivity, { passive: true });
+window.addEventListener('touchend', ()=>{
+  clearTimeout(idleTimer);
+  clearTimeout(scrollEndTimer);
+  scrollEndTimer = setTimeout(()=>{
+    idleTimer = setTimeout(showScrollHint, 3000);
+  }, 500);
+}, { passive: true });
+window.addEventListener('click', onUserActivity);
+
+// Start idle detection immediately on page load. The hint is suppressed
+// over the venue, festivities and closing sections.
+idleTimer = setTimeout(showScrollHint, 3000);
+window.addEventListener('scroll', () => {
+  if(shouldSuppressScrollToast()){
+    const toast = document.getElementById('scroll-toast');
+    if(toast) toast.classList.remove('show');
+    toastVisible = false;
+    clearTimeout(toastTimer);
+    clearTimeout(idleTimer);
+  }
+}, { passive: true });
+
+function smoothScrollTo(targetEl, duration){
+  const startY = window.scrollY || window.pageYOffset;
+  const targetY = startY + targetEl.getBoundingClientRect().top;
+  const distance = targetY - startY;
+  const startTime = performance.now();
+
+  function step(now){
+    const elapsed = now - startTime;
+    const t = Math.min(elapsed / duration, 1);
+    const eased = 1 - Math.pow(1 - t, 3); // ease-out cubic, gentle deceleration
+    window.scrollTo(0, startY + distance * eased);
+    if(t < 1){
+      requestAnimationFrame(step);
+    }
+  }
+  requestAnimationFrame(step);
+}
+
+let countdownRevealed = false;
+function revealCountdown(){
+  if(countdownRevealed) return;
+  countdownRevealed = true;
+  const section = document.getElementById('countdownSection');
+  section.classList.add('show');
+  startCountdown();
+}
+
+// Reveal countdown automatically once it scrolls into view
+const countdownObserver = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting) revealCountdown();
+  });
+}, {threshold: 0.25});
+countdownObserver.observe(document.getElementById('countdownSection'));
+
+// ── LIVE COUNTDOWN TO NOV 24, 2026, IST (UTC+5:30) ──
+function startCountdown(){
+  // Target: Nov 24 2026, 00:00:00 IST -> convert to UTC by subtracting 5:30
+  const targetUTC = Date.UTC(2026, 10, 23, 18, 30, 0); // Nov 24 00:00 IST = Nov 23 18:30 UTC
+
+  function pad(n){ return String(n).padStart(2,'0'); }
+
+  function tick(){
+    const now = Date.now();
+    let diff = targetUTC - now;
+    if(diff < 0) diff = 0;
+
+    const days = Math.floor(diff / (1000*60*60*24));
+    const hours = Math.floor((diff / (1000*60*60)) % 24);
+    const mins = Math.floor((diff / (1000*60)) % 60);
+    const secs = Math.floor((diff / 1000) % 60);
+
+    document.getElementById('cd-days').textContent = pad(days);
+    document.getElementById('cd-hours').textContent = pad(hours);
+    document.getElementById('cd-mins').textContent = pad(mins);
+    document.getElementById('cd-secs').textContent = pad(secs);
+  }
+
+  tick();
+  setInterval(tick, 1000);
+}
+
+function fireConfetti(){
+  const canvas = document.getElementById('confetti-canvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  const colors = ['#8a4f4c','#d4af37','#e2b4b1','#f7dcda','#ba7a76','#e8ce73'];
+  let particles=[];
+
+  const emitY = canvas.height * 0.75; // between middle and bottom of screen
+
+  const emitters = [
+    { x: 0, y: emitY, dir: 1 },
+    { x: canvas.width, y: emitY, dir: -1 }
+  ];
+
+  function spawnParticle(emitter){
+    // Angle aimed upward AND inward toward the middle of the screen.
+    // spreadDeg is measured from straight-inward-horizontal, rotated upward.
+    // Result: particles arc up and toward the center, meeting in the middle.
+    const spreadDeg = 20 + Math.random()*50; // 20°–70° above horizontal
+    const angleRad = spreadDeg * (Math.PI/180);
+    const speed = 7 + Math.random()*6;
+
+    return {
+      x: emitter.x + (Math.random()-0.5)*20,
+      y: emitter.y + (Math.random()-0.5)*20,
+      vx: Math.cos(angleRad) * speed * emitter.dir,  // inward (toward center)
+      vy: -Math.sin(angleRad) * speed,               // upward
+      color: colors[Math.floor(Math.random()*colors.length)],
+      size: 4+Math.random()*8,
+      rot: Math.random()*Math.PI*2,
+      rotSpeed: (Math.random()-0.5)*0.18,
+      alpha: 1,
+      shape: Math.random()>0.5?'rect':'oval'
+    };
+  }
+
+  let frame = 0;
+  const emitDurationFrames = 150;   // ~2.5s of continuous spawning at 60fps
+  const particlesPerFrame = 8;      // per emitter, per frame, while emitting
+  const totalLifeFrames = 700;      // total animation runtime before final cleanup
+
+  function animate(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    // Keep spawning new particles from both corners for the first stretch of time
+    if(frame < emitDurationFrames){
+      emitters.forEach(emitter => {
+        for(let i=0;i<particlesPerFrame;i++){
+          particles.push(spawnParticle(emitter));
+        }
+      });
+    }
+
+    particles.forEach(p=>{
+      p.x+=p.vx; p.y+=p.vy; p.vy+=0.025; p.rot+=p.rotSpeed; p.alpha-=0.0012;
+      if(p.alpha<=0) return;
+      ctx.save();
+      ctx.globalAlpha=Math.max(0,p.alpha);
+      ctx.translate(p.x,p.y);
+      ctx.rotate(p.rot);
+      ctx.fillStyle=p.color;
+      if(p.shape==='rect') ctx.fillRect(-p.size/2,-p.size/4,p.size,p.size/2);
+      else { ctx.beginPath(); ctx.ellipse(0,0,p.size/2,p.size/4,0,0,Math.PI*2); ctx.fill(); }
+      ctx.restore();
+    });
+
+    frame++;
+    if(frame<totalLifeFrames) requestAnimationFrame(animate);
+    else ctx.clearRect(0,0,canvas.width,canvas.height);
+  }
+  animate();
+}
+
+// ── FOREVER US: scroll-driven polaroid stacking effect ──
+
+// Real, accurate viewport height in pixels (avoids mobile browser-chrome
+// inconsistencies that plain `vh` units suffer from). Used as a CSS custom
+// property so sizing stays correct even on browsers without `dvh` support.
+function setRealViewportHeight(){
+  document.documentElement.style.setProperty('--real-vh', `${window.innerHeight * 0.01}px`);
+}
+setRealViewportHeight();
+window.addEventListener('resize', setRealViewportHeight);
+window.addEventListener('orientationchange', setRealViewportHeight);
+
+function initStoryStack(){
+  const section = document.getElementById('storySection');
+  const container = document.getElementById('storyStackContainer');
+  const stackArea = document.getElementById('storyStackArea');
+  const wrappers = Array.from(document.querySelectorAll('.story-card-wrapper'));
+  const hint = document.getElementById('storyScrollHint');
+  const header = section ? section.querySelector('.story-header') : null;
+  if(!section || !container || !wrappers.length) return;
+
+  const total = wrappers.length;
+
+  // Slight peek-out offset per landed card, so earlier photos show at the edges
+  // from underneath later ones, like a real stack of photos tossed down one by one.
+  const restOffsets = [
+    { x: 0,  y: 0 },
+    { x: 14, y: -8 },
+    { x: -12, y: -14 },
+    { x: 10,  y: -20 }
+  ];
+
+  let currentStep = 0;        // how many cards have landed so far (0 to total)
+  let locked = false;         // whether this section currently owns scroll input
+  let entered = false;        // whether we've ever activated the lock for this visit
+  let completed = false;      // whether all cards have landed and lock has been released
+  let animating = false;      // true while a landing transition is in-flight (debounce)
+  let ignoreAdvanceUntil = 0; // brief guard against the swipe that enters/locks this section
+  let ignoreInputUntil = 0;   // prevents momentum/synthetic events from counting as extra swipes
+  let wheelResetTimer = null;
+  let wheelBurstConsumed = false;
+
+  function landCard(index){
+    const wrap = wrappers[index];
+    const rest = restOffsets[index] || { x: 0, y: 0 };
+    wrap.style.transform = `translate(calc(-50% + ${rest.x}px), calc(-50% + ${rest.y}px))`;
+    wrap.classList.add('landed');
+  }
+
+  function activateLock(){
+    if(locked || completed) return;
+    // Align the story experience to the viewport before locking scroll, so the
+    // heading and photo stack are composed together instead of entering halfway down.
+    const containerTop = container.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({ top: containerTop, behavior: 'auto' });
+    locked = true;
+    // Ignore the in-progress gesture that brought the section into view; it must not
+    // also reveal the next card. The visitor needs to make a fresh swipe afterward.
+    ignoreAdvanceUntil = Date.now() + 850;
+    wheelGestureWasLocked = false;
+    document.body.classList.add('no-scroll');
+    if(hint) hint.classList.remove('hidden');
+    // The first photo should already be sitting in place the moment this
+    // section is reached, with no scroll needed to reveal it.
+    if(currentStep === 0){
+      landCard(0);
+      currentStep = 1;
+    }
+  }
+
+  function releaseLock(){
+    locked = false;
+    completed = true;
+    document.body.classList.remove('no-scroll');
+    if(hint) hint.classList.add('hidden');
+
+    container.style.height = 'auto';
+    container.style.overflow = 'visible';
+    container.classList.add('released');
+
+    if(stackArea){
+      stackArea.style.height = window.innerWidth <= 600 ? '500px' : '560px';
+      stackArea.style.position = 'relative';
+      stackArea.style.flex = 'none';
+    }
+
+    // Re-anchor cards to center of stackArea
+    wrappers.forEach((wrap, i) => {
+      const rest = restOffsets[i] || { x:0, y:0 };
+      wrap.style.position = 'absolute';
+      wrap.style.top = '50%';
+      wrap.style.left = '50%';
+      wrap.style.transform = `translate(calc(-50% + ${rest.x}px), calc(-50% + ${rest.y}px))`;
+    });
+
+    const venue = document.getElementById('venueSection');
+    if(venue) venue.style.display = 'block';
+    const festivities = document.getElementById('festivitiesSection');
+    if(festivities) festivities.style.display = 'block';
+    const closing = document.getElementById('closingSection');
+    if(closing) closing.style.display = 'block';
+  }
+
+  function advance(direction){
+    const now = Date.now();
+    if(animating || completed || now < ignoreInputUntil) return;
+
+    // Treat one physical swipe as one card step. The short shared cooldown
+    // also filters synthetic wheel events and momentum generated by mobile browsers.
+    ignoreInputUntil = now + 700;
+
+    if(direction > 0){
+      if(currentStep >= total){
+        // All cards already landed — release the lock so normal scrolling continues onward.
+        releaseLock();
+        return;
+      }
+      animating = true;
+      landCard(currentStep);
+      currentStep++;
+      setTimeout(()=>{ animating = false; }, 300);
+
+      if(currentStep >= total){
+        // Give the last card a moment to visibly land before unlocking scroll.
+        setTimeout(releaseLock, 700);
+      }
+    }
+    // (Scrolling back upward while inside this locked section is intentionally
+    // a no-op for now — only forward steps are handled, matching the scratch-card
+    // style one-directional progression.)
+  }
+
+  let wheelGestureWasLocked = false;
+  function onWheel(e){
+    if(!locked) {
+      wheelGestureWasLocked = false;
+      wheelBurstConsumed = false;
+      if(wheelResetTimer) clearTimeout(wheelResetTimer);
+      return;
+    }
+    e.preventDefault();
+
+    // Keep a wheel/trackpad burst as one gesture. Continuous momentum events
+    // must not reveal multiple cards from a single scroll.
+    if(wheelResetTimer) clearTimeout(wheelResetTimer);
+    wheelResetTimer = setTimeout(() => {
+      wheelGestureWasLocked = false;
+      wheelBurstConsumed = false;
+    }, 260);
+
+    if(Date.now() < ignoreAdvanceUntil || Date.now() < ignoreInputUntil) return;
+    if(Math.abs(e.deltaY) < 8) return;
+
+    if(!wheelGestureWasLocked) {
+      wheelGestureWasLocked = true;
+      return;
+    }
+    if(wheelBurstConsumed) return;
+    wheelBurstConsumed = true;
+    advance(e.deltaY > 0 ? 1 : -1);
+  }
+
+  let touchStartY = null;
+  let touchStartedWhileLocked = false;
+
+  function onTouchStart(e){
+    // Only count a swipe if it began AFTER the story stack had locked scrolling.
+    // Otherwise, the swipe that first brings the section into view can accidentally
+    // count as a card-advance gesture and make cards appear to skip.
+    touchStartedWhileLocked = locked && !completed &&
+      Date.now() >= ignoreAdvanceUntil && Date.now() >= ignoreInputUntil;
+    touchStartY = touchStartedWhileLocked ? e.touches[0].clientY : null;
+  }
+
+  function onTouchMove(e){
+    if(locked) e.preventDefault();
+  }
+
+  function onTouchEnd(e){
+    if(!touchStartedWhileLocked || !locked || completed ||
+       Date.now() < ignoreAdvanceUntil || Date.now() < ignoreInputUntil || touchStartY === null) {
+      touchStartY = null;
+      touchStartedWhileLocked = false;
+      return;
+    }
+
+    const endY = e.changedTouches[0].clientY;
+    const delta = touchStartY - endY;
+    touchStartY = null;
+    touchStartedWhileLocked = false;
+
+    if(Math.abs(delta) < 18) return; // ignore taps and tiny accidental movements
+    advance(delta > 0 ? 1 : -1);
+  }
+
+  window.addEventListener('wheel', onWheel, { passive: false });
+  window.addEventListener('touchstart', onTouchStart, { passive: true });
+  window.addEventListener('touchmove', onTouchMove, { passive: false });
+  window.addEventListener('touchend', onTouchEnd, { passive: true });
+
+  // Activate the lock once the section scrolls into view (and hasn't already completed)
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting && !entered && !completed){
+        entered = true;
+        activateLock();
+      }
+    });
+  }, { threshold: 0.6 });
+  sectionObserver.observe(section);
+}
+initStoryStack();
+
+const scratchObserver = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      scratchIds.forEach((id,i)=> initScratch(id, wrapIds[i], hintIds[i], i));
+      scratchObserver.disconnect();
+    }
+  });
+}, {threshold:0.3});
+scratchObserver.observe(document.getElementById('scratchSection'));
+</script>
+</body>
+</html>
